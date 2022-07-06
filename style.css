@@ -1,134 +1,174 @@
-body{
-    font-family: 'Prompt', sans-serif;
+body {
+    font-family: 'Inter', sans-serif;
     margin: 0;
 }
-.top-header-container{
+
+.top-header-container {
     width: 100%;
-    height: 500px;
-    margin: auto;
+    height: 670px;
     color: white;
     padding-top: 160px;
     text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/donation3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.7)), url(images/donation3.jpg);
     background-size: cover;
     background-position: center;
 }
-.top-header-container h1{
-    font-size: 40px;
+
+.top-header-container h1 {
+    letter-spacing: 0.5px;
+    font-size: 65px;
+    font-weight: 700;
 }
-.top-header-container p{
+
+.top-header-container p {
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
     margin: auto;
-    width: 30%;
+    width: 50%;
 }
-.link-button{
-    padding: 40px 0;
+
+.link-button {
+    padding: 50px 0;
 }
-.button{
+
+.button {
+    font-size: 20px;
+    font-weight: 600;
     text-decoration: none;
     background-color: #8860d0;
     color: white;
     font-weight: 400;
-    padding: 10px 40px;
+    padding: 12px 16px;
     border-radius: 5px;
 }
 
 
-.container{
+.container {
     margin: auto;
-    width: 100%;
     text-align: center;
     padding: 80px 0;
 }
-.container{
-    width: 30%;
-}
-.header-font{
-    font-size: 35px;
+
+.header-font {
+    font-size: 45px;
     font-weight: bold;
 }
-.money-option{
-    padding: 20px 5px;
-    margin: 10px;
-    text-align: center;
+
+.container p {
+    font-size: 18;
+    font-weight: 400;
+    line-height: 28px;
 }
-.money-option ul{
+
+.money-option {
+    padding: 60px 0;
+}
+
+.money-option ul {
     padding: 20px;
 }
-.money-option ul li{
+
+.money-option ul li {
     display: inline;
-    padding: 5px;
+    padding: 10px;
 }
-.money-option ul li a{
-    width: 50px;
-    color: gray;
+
+#border-add {
+    border: 3px solid #8860d0;
     background-color: #F5F3FF;
+}
+.money-option ul li a {
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: gray;
+    padding: 50px 30px;
+    background-color: #F3F4F6;
     text-decoration: none;
-    padding: 25px 12px;
 }
-.input-amount{
+
+.input-amount {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
     border: none;
-    padding: 10px 40px;
+    padding: 10px 30px;
+}
+.container hr{
+    width: 45%;
 }
 
-
-.plan-container{
+.plan-container {
     text-align: center;
 }
-.plan-container p{
+
+.plan-container p {
     margin: auto;
     width: 30%;
 }
-.div-container{
+
+.div-container {
     padding: 0 20px;
 }
-.donate-plan-container{
+
+.donate-plan-container {
     padding-top: 40px;
     padding-left: 350px;
     display: flex;
 }
-.donate-plan{
+
+.donate-plan {
     height: 300px;
     width: 300px;
     padding: 30px;
     border-radius: 10px;
 }
-.donate-plan img{
+
+.donate-plan img {
     width: 50px;
     padding-top: 20px;
 }
 
-#blue{
+#blue {
     background-color: #DBEAFE;
 }
-#red{
+
+#red {
     background-color: #FEE2E2;
 }
-#yellow{
+
+#yellow {
     background-color: #FEF3C7;
 }
 
 
 
-.get-updates-container{
+.get-updates-container {
     text-align: center;
     padding: 80px 0;
 }
-.get-updates{
+
+.get-updates {
     margin: auto;
     width: 30%;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
 }
-.email-section{
+
+.email-section {
     padding: 40px 20px;
     margin: 0 600px;
     background-color: #FFFBEB;
 }
-.email-section input{
+
+.email-section input {
     background-color: #F5F3FF;
     border: none;
     padding: 10px 30px;
 }
-.email-section a{
+
+.email-section a {
     color: white;
     font-size: 14px;
     text-decoration: none;
@@ -136,35 +176,39 @@ body{
     background-color: #EF4444;
 }
 
-.another-article{
+.another-article {
     margin: auto;
     width: 100%;
     padding-top: 120px;
     display: flex;
 }
-.article-contain{
+
+.article-contain {
     padding-right: 30px;
     padding-left: 360px;
     width: 30%;
     text-align: left;
 }
-.article-img{
+
+.article-img {
     padding: 20px;
     width: 550px;
 }
-.article-img img{
+
+.article-img img {
     width: 100%;
     border-radius: 10px;
 }
 
 
-.footer-section{
+.footer-section {
     color: white;
     text-align: center;
     padding: 20px 0;
     background-color: #1a0d00;
 }
-.footer-section h1{
+
+.footer-section h1 {
     font-size: 35px;
     font-weight: 400;
     font-family: 'Lobster', cursive;
