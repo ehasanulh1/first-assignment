@@ -76,6 +76,7 @@ body {
 }
 
 #border-add {
+    color: #8860d0ad;
     border: 3px solid #8860d0;
     background-color: #F5F3FF;
 }
